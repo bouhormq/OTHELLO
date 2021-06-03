@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NivelPlayerMenu2Controller">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../othello-01.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="250.0" layoutY="295.0" prefHeight="300.0" prefWidth="300.0">
+         <children>
+            <ImageView fx:id="Easy" fitHeight="100.0" fitWidth="300.0" onMouseClicked="#OnEasy" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@NivelmMenu_TEXT1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Medium" fitHeight="100.0" fitWidth="300.0" onMouseClicked="#OnMedium" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@NivelmMenu_TEXT2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Hard" fitHeight="100.0" fitWidth="300.0" onMouseClicked="#OnHard" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@NivelmMenu_TEXT3.png" />
+               </image>
+            </ImageView>
+         </children></VBox>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="706.0" layoutY="14.0" onMouseClicked="#OnBack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ArrowBack.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

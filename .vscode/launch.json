@@ -1,0 +1,51 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Othello",
+            "request": "launch",
+            "mainClass": "Othello",
+            "vmArgs": "-p javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web --add-opens=javafx.graphics/javafx.scene=ALL-UNNAMED --add-exports javafx.base/com.sun.javafx.event=ALL-UNNAMED",
+            "projectName": "subgrup-prop6-3 GIT_.project"
+        },
+        {
+            "type": "java",
+            "name": "Launch GridPaneMain",
+            "request": "launch",
+            "mainClass": "GridPaneMain",
+            "projectName": "subgrup-prop6-3_7a8ebb24"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestRunner",
+            "request": "launch",
+            "mainClass": "TestRunner",
+            "projectName": "subgrup-prop6-3_7a8ebb24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "subgrup-prop6-3_7a8ebb24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Othello",
+            "request": "launch",
+            "mainClass": "Othello",
+            "vmArgs": "-p javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web --add-opens=javafx.graphics/javafx.scene=ALL-UNNAMED --add-exports javafx.base/com.sun.javafx.event=ALL-UNNAMED",
+            "projectName": "subgrup-prop6-3_7a8ebb24"
+        }
+    ]
+}
